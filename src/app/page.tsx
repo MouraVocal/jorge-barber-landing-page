@@ -1,9 +1,14 @@
 import { Navbar } from '@/components/Navbar'
+import { Main } from '@/components/Main'
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center">
-      <Navbar />
-    </main>
+    <>
+      <header className="relative flex flex-col items-center">
+        <Navbar />
+      </header>
+      <Main />
+      <footer></footer>
+    </>
   )
 }
