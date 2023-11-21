@@ -3,8 +3,8 @@ import { libreCaslonText } from '@/fonts'
 
 export const Main = () => {
   return (
-    <main className="relative flex h-screen px-16 justify-center items-center w-full gap-20">
-      <article className="w-1/2 h-full flex flex-col justify-center">
+    <main className="relative flex h-screen px-16 w-full gap-20">
+      <article className="w-1/2 h-[calc(100%-7rem)] my-28 flex flex-col justify-center">
         <h2 className={`${libreCaslonText.className} text-6xl mb-10`}>
           A <span className="text-[#d6a354]">barbearia</span> que entende o que{' '}
           <span className="text-[#d6a354]">você</span> precisa!
